@@ -1,0 +1,231 @@
+.page-template-page-bundle_course .transparent .container {
+  max-width: 1368px;
+}
+
+.page-template-page-bundle_course .transparent .container a {
+  text-decoration: none !important;
+}
+
+.tech-promo-item img {
+  border-radius: 4px;
+}
+.tech-button-area h4 {
+  font-size: 20px;
+  color: #322b4b;
+}
+.tech-button-area p span {
+  color: rgba(85, 85, 85, 0.5);
+  text-decoration-line: line-through;
+  margin-right: 3px;
+}
+.tech-button-area p {
+  font-size: 16px;
+  color: #24a929;
+}
+.tech-promo-item .fa {
+  position: absolute;
+  top: -10px;
+  right: 5px;
+  background: #eb5757;
+  height: 30px;
+  border-radius: 50%;
+  width: 30px;
+  line-height: 30px;
+  color: #fff;
+}
+.tech-promo-item {
+  border-radius: 4px;
+  border: 1px dashed #bcb3f8;
+  min-height: 115px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 6px 0;
+}
+.tech-promo-item p {
+  font-size: 15px;
+  line-height: 1.6;
+
+  margin-bottom: 0;
+}
+.no-border {
+  border-width: 0 !important;
+}
+.btn.btn-fill {
+  background: #fe7439;
+  font-size: 14px;
+  padding: 8px 24px;
+  color: #fff;
+}
+
+.section-seperator {
+  padding: 100px 0;
+}
+.tech-courses {
+  background: #f3f6fb;
+}
+.tech-courses .tech-section-title {
+  padding-right: 15%;
+}
+.tech-course-search {
+  padding: 30px;
+  background: #fff;
+  border-radius: 4px;
+}
+.tech-search-input {
+  background: #e5f5ef;
+}
+.tech-search-input .form-control {
+  background: #e5f5ef;
+  border-radius: 4px !important;
+}
+.tech-prepta .input-group-text {
+  background: transparent;
+  border: 0;
+  line-height: 2;
+}
+.tech-prepta {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 999;
+  top: 20%;
+  cursor: pointer;
+  bottom: 0;
+}
+.form-control {
+  min-height: 48px;
+  border-radius: 4px;
+}
+.tech-caret {
+  position: absolute;
+  right: 12px;
+  top: 35%;
+  bottom: 0;
+}
+.relative {
+  position: relative;
+}
+.tech-course-card {
+  background: #ffffff;
+  box-shadow: 0px 56px 80px rgba(0, 0, 0, 0.02),
+    0px 16.8824px 24.1177px rgba(0, 0, 0, 0.0154052),
+    0px 7.01207px 10.0172px rgba(0, 0, 0, 0.0139017),
+    0px 2.53613px 3.62304px rgba(0, 0, 0, 0.0091939);
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 30px;
+}
+.tech-course-card .tech-content {
+  padding: 0 15px;
+  text-align: left;
+}
+.tech-course-card img {
+  width: 100%;
+}
+.tech-course-card h4 {
+  font-size: 16px;
+  line-height: 25px;
+  margin: 10px 0;
+  padding: 0 15px;
+  text-align: left;
+}
+.tech-course-card .student-count .total-student {
+}
+.tech-course-card .student-count .rating {
+  color: #fea757;
+}
+.tech-course-card .student-count {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border: 1px solid #f2f2f2;
+  margin-bottom: 10px;
+}
+
+.tech-course-card .tech-acrd {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.tech-course-card .tech-acrd p span {
+  text-decoration-line: line-through;
+}
+.tech-course-card .tech-acrd p {
+  font-size: 14px;
+}
+.tech-course-card .tech-acrd a {
+}
+.tech-one-btn {
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+  margin-top: 50px;
+}
+.tech-one-btn .btn {
+  border: 1px solid rgba(85, 85, 85, 0.3) !important;
+  padding: 12px 50px;
+  color: #212529;
+}
+.tech-one-btn .btn:hover {
+  background: #fe7439;
+  color: #fff;
+  border-color: #eb5757;
+}
+.form-control {
+  outline: 0;
+}
+.form-control:hover,
+.form-control:active,
+.form-control:focus {
+  outline: 0;
+}
+.upload-btn {
+  margin: 10px 0;
+}
+.removeBundleItem {
+  cursor: pointer !important;
+}
+.bundle_loader {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  z-index: 111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.bundle_spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 4rem;
+  height: 4rem;
+}
+
+.tech-search-input .form-control {
+  background: #e5f5ef;
+  border-radius: 4px !important;
+  box-shadow: none;
+}
+.tech-course-search .form-control {
+  box-shadow: none;
+}
+.tech-course-card a {
+  text-decoration: none !important;
+}
+
+.tech-course-card a:hover h4 {
+  color: #00a35b;
+}
+
+
+

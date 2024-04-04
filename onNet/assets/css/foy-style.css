@@ -1,0 +1,938 @@
+/* UKHF Certificate */
+
+
+#cert-container-page1,
+#cert-container-merit-page {
+    padding: 20px 0;
+    margin-bottom: 100px;
+    max-width: 1200px;
+}
+
+#cert-container-page1 .certificate-order-card {
+    margin: 20px 0;
+    padding: 30px 35px;
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: .5fr 2fr 2fr .5fr;
+    align-items: center;
+}
+
+
+
+/* .certificate-order-card:nth-of-type(4) .progress-container {
+    display: none;
+} */
+
+.certificate-order-card .cert-type-title h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4B4B4B;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+.certificate-order-card .cert-type-title h4 {
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8B8B8B;
+    text-transform: capitalize;
+    margin: 0px;
+}
+
+
+.certificate-order-card .cert-progress {
+
+    padding: 0;
+    max-width: 232px;
+    height: 14px;
+    overflow: hidden;
+    background: #F1F1F1;
+    border-radius: 50px;
+}
+
+.certificate-order-card .cert-bar {
+    position: relative;
+    float: left;
+    min-width: 1%;
+    height: 100%;
+    background: #00C7B2;
+    border-radius: 50px;
+}
+
+.certificate-order-card .progress-container {
+    padding: 0 15px;
+}
+
+.certificate-order-card .progress-container h4 {
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #8B8B8B;
+    text-transform: capitalize;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.certificate-order-card .progress-container h3 {
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+
+}
+
+.certificate-order-card a.redirect-url-btn,
+.certificate-merit-card a.redirect-url-btn {
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    min-width: 220px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #3B294B;
+    background: #D4FAF6;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: .3s;
+    text-align: center;
+}
+
+.certificate-merit-card a.redirect-url-btn:hover,
+.certificate-order-card a.redirect-url-btn:hover,
+a.view-claimed-certificates:hover {
+    background: #00C7B2;
+    color: #fff !important;
+}
+
+
+a.view-claimed-certificates {
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #3B294B;
+    background: #D4FAF6;
+    border-radius: 4px;
+    padding: 10px;
+    transition: .3s;
+    text-align: center;
+}
+
+
+h1.select-course-title {
+
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #4B4B4B;
+
+}
+
+#cert-container-merit-page .certificate-merit-card {
+    margin: 20px 0;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 10px;
+    /* display: grid;
+    grid-template-columns: .2fr 1fr .2fr .2fr; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.certificate-merit-card h1.certificate-course-title {
+    width: 50%;
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #4B4B4B;
+}
+
+
+.certificate-status {
+    max-width: 102px;
+    border-radius: 40px;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    text-transform: capitalize;
+
+}
+
+.foy-claimed {
+    background: #009834;
+    color: #FFFFFF;
+}
+
+.foy-pending {
+    background: #FDC748;
+    color: #000000;
+}
+
+.certificate-status-pending {
+    max-width: 102px;
+    background: #FDC748;
+    border-radius: 40px;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+
+
+.chosen-container-single .chosen-single {
+    background: #FFFFFF !important;
+    border: 1px solid rgba(131, 131, 131, 0.4) !important;
+    border-radius: 5px !important;
+    max-width: 592px;
+    /* max-height: 56px; */
+    height: 40px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+.chosen-container-single .chosen-single div b {
+    background: url(chosen-sprite.png) no-repeat 0 8px !important;
+}
+
+h2.foy-type-heading {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2ad346;
+}
+
+.foy-certificate-top-section {
+    margin-bottom: 20px;
+}
+
+.foy-progress {
+    text-align: center;
+    margin: 80px 0;
+}
+
+button#proceed-button {
+    background: #00C7B2;
+    border-radius: 5.625px;
+    padding: 10px 40px;
+    color: #ffffff;
+    border: none;
+}
+
+
+
+
+button#foy-link-ap {
+    background: #00C7B2;
+    border-radius: 5.625px;
+    padding: 10px 40px;
+    color: #ffffff;
+    border: none;
+}
+
+
+button#foy-link-ap,
+button#proceed-button,
+input#foy-link-ap {
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+button#foy-link-ap:disabled,
+button#proceed-button:disabled,
+#foy-course-submit:disabled,
+input#foy-link-ap:disabled, 
+input#proceed-button:disabled {
+    background: #00c7b36c;
+}
+
+input#course-id-input {
+    border: 1px solid rgba(131, 131, 131, 0.4);
+    border-radius: 5px;
+    width: 335px;
+    height: 40px;
+}
+
+select#course-for-certificate {
+    border: 1px solid rgba(131, 131, 131, 0.4);
+    border-radius: 5px;
+    height: 40px;
+}
+
+button.foy-course-submit, input#proceed-button  {
+    background: #00C7B2;
+    border-radius: 5.625px;
+    padding: 10px 40px;
+    color: #ffffff;
+    border: none;
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+
+.most-popular-title-and-select {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.most-popular-title-and-select h4 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #9013FE;
+    margin-bottom: 0;
+}
+
+.most-popular-title-and-select h2 {
+    font-weight: 400;
+    font-size: 36px;
+    color: #33385A;
+    margin-top: 0;
+}
+
+.most-popular-title-and-select select {
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+}
+
+#course-carousel-container {
+    position: relative;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+i.custom-nav-carousel {
+    color: #2B354E;
+    font-size: 26px;
+    padding: 10px;
+    border: 1px solid #BECDE1;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    transition: .3s;
+    width: 50px;
+}
+
+i.custom-nav-carousel:hover {
+    background-color: #362F89;
+    color: #fff;
+}
+
+i.custom-prev {
+    right: 102%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+i.custom-next {
+    left: 98%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.popular-cat-courses-carousel {
+    overflow-x: clip;
+}
+
+.popular-cat-courses-carousel .owl-stage {
+    display: flex;
+}
+
+.popular-cat-courses-carousel .owl-item.active {
+    width: 470px !important;
+}
+
+.popular-cat-courses-carousel .owl-nav {
+    display: none;
+}
+
+.popular-cat-course-card-slide {
+    max-width: 400px;
+    background: #FFFFFF;
+    border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-bottom: 20px;
+}
+
+.popular-cat-course-card-slide h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 19px;
+    line-height: 28px;
+    color: #000000;
+    padding: 5px 40px;
+    min-height: 70px;
+}
+
+
+img.popular-cat-course-card-slide-image {
+    width: 100%;
+    border-radius: 13px 13px 0 0;
+    height: 218px;
+}
+
+.students-and-ratings {
+    margin: 10px 0;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.students-and-ratings img.student-icon {
+    width: 20px;
+}
+
+.students-and-ratings .enrolled-student-number {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #54595F;
+}
+
+
+a.pre-order-cert-this-course {
+    max-width: 320px;
+    background: #00C7B2;
+    border-radius: 5px;
+    font-family: 'Poppins' !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px 0;
+    transition: .3s;
+}
+
+a.cert-course-info {
+    max-width: 320px;
+    border: 1px solid #00C7B2;
+    border-radius: 5px;
+    font-family: 'Poppins' !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #00C7B2;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px 0;
+    transition: .3s;
+}
+
+a.pre-order-cert-this-course:hover,
+a.cert-course-info:hover {
+    color: #3B294B;
+    background: #D4FAF6;
+    ;
+}
+
+label[for=cert-recipient-name],
+label[for=cert-recipient-email] {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #4B4B4B;
+    margin: 10px 0;
+}
+
+form#foy-select, .gift-recipient-info{
+    max-width: 592px;
+    margin: 40px 0;
+}
+
+
+
+form#foy-select div{
+    width: 100%;
+    margin: 30px 0;
+}
+
+.drop-down-andbutton-container{
+    display: flex;
+    align-items: center
+}
+
+form#foy-link-select{
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+input#cert-recipient-name,
+input#cert-recipient-email {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid rgba(131, 131, 131, 0.4);
+    border-radius: 5px;
+}
+
+
+#cert-gift-option {
+    display: flex;
+}
+
+
+input.cert-gift-readio[type="radio"]:checked,
+input.cert-gift-readio[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+input.cert-gift-readio[type="radio"]:checked+label,
+input.cert-gift-readio[type="radio"]:not(:checked)+label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #4B4B4B;
+}
+
+input.cert-gift-readio[type="radio"]:checked+label:before,
+input.cert-gift-readio[type="radio"]:not(:checked)+label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background: #fff;
+}
+
+input.cert-gift-readio[type="radio"]:checked+label:before {
+    border: 1px solid #00C7B2;
+}
+input.cert-gift-readio[type="radio"]:not(:checked)+label:before{
+    border: 1px solid #000;
+}
+
+input.cert-gift-readio[type="radio"]:checked+label:after,
+input.cert-gift-readio[type="radio"]:not(:checked)+label:after {
+    content: '';
+    width: 9px;
+    height: 9px;
+    background: #00C7B2;
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+input.cert-gift-readio[type="radio"]:not(:checked)+label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+input.cert-gift-readio[type="radio"]:checked+label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+
+.pending-cert-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pending-cert-pagination .page-numbers i {
+    border: 1px solid #14bc9f;
+    color: #14bc9f;
+    padding: 10px;
+    border-radius: 2px;
+    transition: .3s;
+}
+
+.pending-cert-pagination .page-numbers i:hover {
+    background-color: #14bc9f;
+    color: #fff;
+}
+
+.pending-cert-pagination a.next.page-numbers,
+.pending-cert-pagination a.prev.page-numbers {
+    padding: 0 !important;
+}
+
+.pending-cert-pagination .pagination a,
+.pagination a.page-numbers,
+.pending-cert-pagination .current {
+    padding: 5px 10px !important;
+    margin-right: 5px;
+    font-size: 14px !important;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: 600;
+    background: transparent;
+    border: none !important;
+    transition: .3s;
+}
+
+.pending-cert-pagination .pagination a:hover,
+.pagination a.page-numbers:hover {
+    background-color: #14bc9f;
+    color: #fff;
+}
+
+.foy-cert-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.course-carousel-loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 2s linear infinite;
+    margin: auto;
+}
+
+.form-and-progress-score{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    align-items: center;
+    gap: 150px;
+    margin-left: auto;
+    
+}
+
+.cert-progress-score{
+    max-width: 520px;
+    background: #FFFFFF;
+    border: 1px  solid #CDCDCD;
+    border-top: none;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+span.score-label{
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #4B4B4B;
+}
+
+
+.cert-progress-score p{
+    text-align: center;
+}
+
+.cert-progress-score p:nth-child(2){
+    margin-top: 20px;
+}
+
+h4.progress-text{
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #0E0E0E;
+    background: #F3F3F3;
+    margin:  0;
+    padding: 10px 0;
+}
+
+span#user-cert-score{
+    font-family: 'Inter !important';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4B4B4B;
+}
+
+span#user-cert-level{
+    font-family: 'Inter' !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: capitalize;
+    background: #FFF8D6;
+    border: 1px solid #FFD200;
+    border-radius: 40px;
+    padding: 10px 5px;
+    margin-left: 10px;
+}
+
+p#user-cert-next-stage{
+    font-family: 'Maven Pro' !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #009383;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #fff;
+    padding: 20px;
+}
+
+.foy-error{
+    color: #fff;
+    font-size: 16px;
+    background-color: #c53030;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#course_for_certificate_chosen a.chosen-single{
+    width: 100%;
+}
+
+
+.cert-gift-option{
+    display: flex;
+    align-items: baseline;
+}
+
+ .cert-gift-option span{
+    margin-left: 30px;
+ }
+
+@media screen and (max-width: 767px) {
+
+
+    h1.select-course-title {
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+
+    #cert-container-page1,
+    #cert-container-merit-page {
+        padding: 0 20px;
+    }
+
+    .certificate-order-card {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .certificate-order-card .progress-container h4 {
+        text-align: center;
+        font-size: 14px;
+    }
+
+
+    .certificate-order-card .cert-type-title h1 {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .certificate-order-card .progress-container h3 {
+        text-align: center;
+    }
+
+    .certificate-order-card a.redirect-url-btn,
+    .certificate-merit-card a.redirect-url-btn {
+        margin: 10px 0;
+        min-width: fit-content;
+    }
+
+    #cert-container-merit-page .certificate-merit-card {
+        flex-direction: column;
+    }
+
+    #cert-container-merit-page .certificate-merit-card img {
+        width: 100%;
+    }
+
+    .certificate-merit-card h1.certificate-course-title {
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+
+    .certificate-order-card .cert-type-title h4 {
+        text-align: center;
+    }
+
+    .popular-cat-courses-carousel .owl-item.active {
+        width: auto !important;
+    }
+
+
+    form#foy-select {
+        max-width: 60%;
+        flex-direction: column;
+    }
+
+
+    i.custom-nav-carousel {
+        font-size: 22px;
+        width: 45px;
+    }
+
+    i.custom-prev {
+        right: 20%;
+        top: -30px;
+        transform: translateY(-50%);
+    }
+
+    i.custom-next {
+        left: 82%;
+        top: -30px;
+        transform: translateY(-50%);
+    }
+
+    .cert-progress-score {
+        margin-top: 20px;
+    }
+    .form-and-progress-score {
+        display: block;
+    }
+
+    input#course-id-input {
+        width: 100%;
+    }
+
+   
+
+}
+
+
+@media only screen and (max-width: 900px) and (min-width: 768px) {
+
+    h1.select-course-title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    #cert-container-page1 .certificate-order-card {
+        grid-template-columns: .3fr 1fr 1fr .6fr;
+    }
+
+
+    .certificate-order-card:nth-of-type(4) .progress-container {
+        display: block;
+    }
+
+    .certificate-order-card:nth-of-type(4) {
+        grid-template-columns: .3fr 1fr .1fr .6fr !important;
+    }
+
+    .certificate-order-card .progress-container h4 {
+        font-size: 12px;
+    }
+
+
+    .certificate-order-card .cert-type-title h1 {
+        font-size: 14px;
+    }
+
+
+
+    .certificate-order-card a.redirect-url-btn {
+        font-size: 12px;
+        padding: 10px 5px;
+        text-align: center;
+    }
+
+    .certificate-order-card .progress-container h3 {
+        font-size: 12px;
+    }
+
+    .certificate-merit-card a.redirect-url-btn {
+        min-width: 130px;
+    }
+
+    .certificate-merit-card h1.certificate-course-title {
+        max-width: 230px;
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .popular-cat-courses-carousel .owl-item.active {
+        width: auto !important;
+    }
+
+
+    i.custom-prev {
+        right: 98%;
+        top: 20%;
+        transform: translateY(-50%);
+    }
+
+    i.custom-next {
+        left: 98%;
+        top: 20%;
+        transform: translateY(-50%);
+    }
+
+
+    .form-and-progress-score{
+        grid-template-columns: 2fr 2fr;
+        gap: 40px;
+    }
+    
+}

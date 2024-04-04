@@ -1,0 +1,43 @@
+/* blog single start */
+
+body.single-post {
+  font-family: "Inter", sans-serif !important;
+}
+.single-post .pagetitle > h1 {
+  font-family: "Inter", sans-serif !important;
+  font-size: 32px;
+}
+.single-post .elementor-widget-text-editor .elementor-text-editor h2,
+.single-post .elementor-widget-text-editor .elementor-text-editor p,
+.single-post .elementor-widget-text-editor .elementor-text-editor h3,
+.single-post .elementor-widget-text-editor .elementor-text-editor li {
+  font-family: "Inter", sans-serif !important;
+  color: #2b354e !important;
+}
+.single-post .elementor-widget-text-editor .elementor-text-editor p a {
+  color: #2000f0b0 !important;
+}
+.single-post .elementor-widget-text-editor .elementor-text-editor table,
+.single-post .elementor-widget-text-editor .elementor-text-editor tr,
+.single-post .elementor-widget-text-editor .elementor-text-editor td {
+  border: 1px solid #3333337a;
+}
+.single-post .elementor-widget-text-editor .elementor-text-editor ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+@media (min-width: 1024px) {
+  .single-post .type-post .content .elementor-section .elementor-container {
+    max-width: none;
+  }
+}
+
+.post-template-default.single.single-post h3,
+.post-template-default.single.single-post h2 {
+  color: #2b354e !important;
+}
+.post-template-default.single.single-post p a {
+  color: #2000f0b0 !important;
+}
+
+/* blog single end */

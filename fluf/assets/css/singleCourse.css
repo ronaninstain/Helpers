@@ -1,0 +1,642 @@
+/*----course curriculum-------*/
+.course_curriculum {
+  /* width: 1200px!important; */
+  /* box-shadow: 5px 25px 50px rgba(164, 162, 162, 0.1)!important; */
+  border-radius: 10px !important;
+  padding: 20px 100px 20px 50px !important;
+  /* margin-left: 20px!important; */
+  margin-top: 30px !important;
+}
+.course_curriculum.accordion {
+  margin-left: -50px !important;
+  margin-bottom: -20px !important;
+}
+img#header_alt_logo {
+  height: auto !important;
+}
+.course_curriculum .course_lesson {
+  border: 0 !important;
+  border-bottom: 0.5px solid #e4e4e4 !important;
+}
+.course_curriculum .course_lesson > td {
+  font-family: "Inter" !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 200% !important;
+  color: #292c44 !important;
+}
+.course_curriculum .course_section {
+  border: 0 !important;
+}
+.course_curriculum .course_section > td {
+  font-family: "Inter" !important;
+  font-weight: 500 !important;
+  font-size: 22px !important;
+  line-height: 200% !important;
+  color: #292c44 !important;
+}
+.course_curriculum.accordion .course_lesson.show {
+  margin-left: 50px !important;
+}
+
+.course_curriculum .course_lesson .curriculum-icon > i::before {
+  content: "\f04b" !important;
+  font-family: "FontAwesome" !important;
+  background: #ccf0fd;
+  padding: 7px 8px 7px 12px;
+  border-radius: 50%;
+  color: #292c44;
+  box-shadow: 5px 25px 50px rgba(164, 162, 162, 0.1);
+}
+.course_curriculum.accordion .course_section > td::after {
+  background: #ccf0fd;
+  padding: 0px 16px;
+  border-radius: 50%;
+  color: #292c44;
+  box-shadow: 5px 25px 50px rgba(164, 162, 162, 0.1);
+  font-size: 16px;
+  right: -50px !important;
+}
+
+section.CourseTop {
+  padding: 100px 0;
+  background: #e8f6ff;
+}
+
+section.CourseTop .topContentBox h2 {
+  color: #173e88;
+  font-family: "Inter";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
+
+section.CourseTop .topContentBox p {
+  color: #2d3748;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+}
+
+.the_review_box .rating_sh_content .sh_rating {
+  unicode-bidi: bidi-override;
+  color: #ffde8a;
+  font-size: 24px;
+  width: 100px;
+  position: relative;
+  padding: 0;
+  text-shadow: 0px 1px 0 #a2a2a2;
+}
+
+.the_review_box .rating_sh_content .sh_rating-upper {
+  color: #ffb800;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.the_review_box .rating_sh_content .sh_rating-lower {
+  padding: 0;
+  display: flex;
+  z-index: 0;
+}
+
+.the_review_box .the_ratings_details {
+  color: #494747;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.the_review_box {
+  display: flex;
+  align-items: center;
+  justify-content: normal;
+  gap: 15px;
+  align-content: center;
+  flex-direction: row;
+}
+
+.the_review_box .the_ratings_details span {
+  color: #ffb800;
+  font-weight: 700;
+}
+
+section.CourseTop .topContentBox .stds p {
+  color: #494747;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+section.CourseMiddle {
+  padding: 100px 0;
+}
+
+section.CourseMiddle .the-Tab-functional-middle .nav-tabs {
+  border-bottom: 1px solid #d5dce4;
+  margin: 0 0 60px 0;
+}
+
+section.CourseMiddle .the-Tab-functional-middle ul.nav.nav-tabs li a {
+  color: #2d3748;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.the-Tab-functional-middle .for-overwriting-the-css-c-crriculmn h3.heading {
+  display: none;
+}
+
+section.CourseMiddle .the-Tab-functional-middle .nav-tabs > li.active > a {
+  background: transparent;
+  border: 0 0 1px 0 !important;
+  border: 0;
+  border-bottom: 3px solid #173e88;
+}
+
+section.CourseMiddle .theSideBar {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 60px 0px rgba(23, 62, 136, 0.07);
+  width: 370px;
+  padding: 20px;
+  margin-top: -420px;
+}
+
+section.CourseMiddle .theSideBar hr {
+  margin: 32px 0;
+}
+
+section.CourseMiddle .theSideBar .theExtraBtns h4 {
+  color: #2d3748;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+}
+
+section.CourseMiddle .theCourseImage img {
+  text-align: center;
+  border-radius: 10px;
+}
+
+section.CourseMiddle .thePriceAndDiscoutCount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  align-content: center;
+}
+
+section.CourseMiddle .thePriceAndDiscoutCount .thepurchasebtns {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+section.CourseMiddle .thePriceAndDiscoutCount .thepurchasebtns .mainPrice {
+  color: #6c778a;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -3px;
+}
+
+section.CourseMiddle .thePriceAndDiscoutCount .thepurchasebtns .discountPrice {
+  color: #2d3748;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: -3px;
+}
+
+section.CourseMiddle .thePriceAndDiscoutCount .theTotalDicounts p {
+  color: #2d3748;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}
+
+section.CourseMiddle .thePriceAndDiscoutCount .theTotalDicounts span {
+  color: #173e88;
+  font-weight: 700;
+}
+
+section.CourseMiddle .theSideBar .theMainBtn a {
+  border-radius: 5px;
+  background: linear-gradient(90deg, #004680 0%, #4484ba 100.1%) !important;
+  border: 0 !important;
+  color: #fff !important;
+  font-family: Inter !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: 14px !important;
+}
+
+section.CourseMiddle .theSideBar .theMainBtn .course_button.button {
+  padding: 11px 80px !important;
+}
+
+section.CourseMiddle .theSideBar .theMainBtn .button {
+  margin: 30px 0 !important;
+}
+
+section.CourseMiddle .theSideBar .theAjaxbtn a {
+  padding: 10px 0px;
+  width: 100%;
+  display: block;
+  text-align: center;
+  border-radius: 5px;
+  border: 1.755px solid #173e88;
+  color: #173e88;
+  font-family: Inter, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+section.CourseMiddle .theSideBar .theExtraBtns .theBusinessBtn,
+section.CourseMiddle .theSideBar .theExtraBtns .theSpecialBtn {
+  background: #ecf7ff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+section.CourseMiddle .theSideBar .theExtraBtns .theBusinessBtn h6,
+section.CourseMiddle .theSideBar .theExtraBtns .theSpecialBtn h6 {
+  color: #2d3748;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+section.CourseMiddle .theSideBar .theExtraBtns .theBusinessBtn a,
+section.CourseMiddle .theSideBar .theExtraBtns .theSpecialBtn a {
+  padding: 12px 15px 13px 15px;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #004680 0%, #4484ba 100%);
+  color: #fff;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  align-content: center;
+}
+
+section.CourseMiddle .theSideBar .theCourseFeatures h2 {
+  color: #2d3748;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+section.CourseMiddle .theSideBar .theCourseFeatures ul li {
+  color: #2d3748;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: normal;
+  margin: 10px 0;
+}
+
+section.CourseMiddle .theSideBar .theAcredationImages .firstlot,
+section.CourseMiddle .theSideBar .theAcredationImages .secondlot {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 25px 0;
+}
+
+.theShareCourseBox {
+  text-align: center;
+}
+
+section.CourseMiddle .theSideBar .theShareCourseBox h2 {
+  color: #2d3748;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+section.CourseMiddle .theSideBar .theShareCourseBox a {
+  margin: 0 6px;
+}
+
+section.courseBottom h2 {
+  color: #173e88;
+  font-family: "Inter";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  padding: 30px 0;
+}
+
+section.courseBottom {
+  background: #dbeefb;
+  padding: 40px;
+}
+
+section.courseBottom .listBox .sh_23_singleCourse_top_courses {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: center;
+  gap: 10px;
+  flex-direction: row;
+}
+
+section.courseBottom .listBox ul li {
+  margin: 20px 0;
+}
+
+section.courseBottom .listBox ul li .sh_23_singleCourse_thumb a img {
+  width: 212px;
+  border-radius: 5px;
+}
+
+section.courseBottom .listBox ul li .sh_23_singleCourse_title_box a {
+  color: #173e88;
+  font-family: "INTER";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+section.courseBottom .listBox ul li .the-sh-add-to-cart-button-23-single a {
+  border-radius: 10px;
+  background: linear-gradient(90deg, #004680 0%, #4484ba 100.1%);
+  padding: 12px 32px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+}
+
+section.courseBottom
+  .listBox
+  ul
+  li
+  .the-sh-add-to-cart-button-23-single
+  a.seeMorebtn {
+  border: 2px solid #173e88;
+  background: transparent !important;
+  color: #173e88 !important;
+}
+
+section.courseBottom .listBox ul li .the-sh-add-to-cart-button-23-single {
+  display: flex;
+  gap: 15px;
+}
+
+section.courseBottom .listBox ul li .sh_23_singleCourse_details {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  section.CourseTop,
+  section.courseBottom {
+    padding: 50px 0;
+  }
+
+  section.CourseTop .topContentBox h2 {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  section.CourseTop .topContentBox p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  section.CourseTop .topContentBox .stds p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .the_review_box {
+    gap: 5px;
+  }
+
+  section.CourseMiddle {
+    padding: 50px 0;
+  }
+
+  section.CourseMiddle .theSideBar {
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 0;
+  }
+
+  section.CourseMiddle .thePriceAndDiscoutCount {
+    align-items: baseline;
+    margin: 15px 0;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  section.CourseMiddle .theSideBar .theMainBtn .course_button.button {
+    padding: 11px 50px !important;
+  }
+
+  .theAcredationImages img {
+    width: 31%;
+  }
+
+  .course_curriculum.accordion .course_section > td::after {
+    right: 0px !important;
+  }
+
+  .course_curriculum.accordion .course_lesson.show {
+    margin-left: 0px !important;
+  }
+
+  .course_curriculum.accordion {
+    margin-left: 0px !important;
+    margin-bottom: 0px !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  section.CourseTop,
+  section.courseBottom,
+  section.CourseMiddle {
+    padding: 30px 0;
+  }
+
+  section.CourseTop .topContentBox h2 {
+    font-size: 22px;
+    line-height: 36px;
+  }
+
+  section.CourseTop .topContentBox p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  section.CourseTop .topContentBox .stds p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  section.CourseMiddle .the-Tab-functional-middle ul.nav.nav-tabs li a {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  section.CourseMiddle .the-Tab-functional-middle .nav-tabs {
+    margin: 0 0 30px 0;
+  }
+
+  section.CourseMiddle .theSideBar {
+    width: 100%;
+    padding: 10px;
+    margin-top: 0;
+  }
+
+  section.CourseMiddle .thePriceAndDiscoutCount {
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 15px 0;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  section.CourseMiddle .theSideBar .theMainBtn .course_button.button {
+    padding: 11px 40px !important;
+  }
+
+  section.CourseMiddle .theSideBar .theMainBtn .button {
+    margin: 15px 0 !important;
+  }
+
+  section.CourseMiddle .theSideBar .theAcredationImages .firstlot,
+  section.CourseMiddle .theSideBar .theAcredationImages .secondlot {
+    margin: 20px 0;
+  }
+
+  section.CourseMiddle .theSideBar .theAcredationImages img {
+    width: 31%;
+  }
+
+  section.courseBottom h2 {
+    font-size: 21px;
+    line-height: 21px;
+    padding: 20px 0;
+  }
+
+  section.courseBottom .listBox .sh_23_singleCourse_top_courses {
+    align-items: baseline;
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  section.courseBottom .listBox ul li .sh_23_singleCourse_thumb a img {
+    width: 100%;
+  }
+
+  .for-order-change-mbl {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mbl-2 {
+    order: 2;
+    margin: 30px 0;
+  }
+
+  .mbl-1 {
+    order: 1;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1920px) {
+  .course_curriculum.accordion {
+    margin-left: 0px;
+  }
+}
+
+#customToaster {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  z-index: 999;
+  width: auto;
+  font-size: 15px;
+  padding: 15px 40px;
+}
+
+#customToaster.success {
+  border-radius: 5px;
+  background: linear-gradient(90deg, #004680 0%, #4484ba 100.1%) !important;
+}
+
+/* Add this CSS to style the success message */
+.success-message {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #4caf50;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  z-index: 999;
+}

@@ -1,0 +1,106 @@
+/* cart css start by Nabil */
+.a2n-product__content {
+  background-color: #f8f8f8;
+  border-radius: 4px;
+}
+.a2n-product__content > td {
+  padding: 20px 0 !important;
+  border: 0 !important;
+  vertical-align: top !important;
+}
+.a2n-product__content > :not(.a2n-product_desc) {
+  text-align: center;
+}
+.a2n-product__content > .a2n-product_desc {
+  padding-left: 20px !important;
+}
+.a2n-product_desc .SpecificName {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0f151a;
+}
+.a2n-product_desc .SpecificDescription {
+  display: none;
+}
+.a2n-product_desc > ul {
+  list-style: url("https://thamescollege.org/wp-content/uploads/2024/04/check_cart.svg");
+  margin: 10px 0 10px 20px;
+}
+.a2n-product_desc > ul li {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0f151a;
+}
+.a2n-product_desc > a:nth-last-of-type(1) {
+  position: relative;
+  color: #007aff !important;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.a2n-product_desc > a:nth-last-of-type(1):hover {
+  text-decoration: underline;
+  color: #181a9a !important;
+}
+.a2n-product_desc > a:nth-last-of-type(1)::before {
+  content: url("https://thamescollege.org/wp-content/uploads/2024/04/certificate_cart.svg");
+  position: relative;
+  vertical-align: middle;
+  left: 0;
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+}
+.a2n-product_desc > p:last-of-type {
+  display: none;
+}
+.a2n-product__content .SpecificAddToBasket {
+  display: inline-block;
+  cursor: pointer;
+  padding: 4.136px 8px;
+  border-radius: 0.25rem;
+  border: 2px solid #081351;
+  color: #081351;
+  background: #fff;
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+}
+.a2n-product__content .product-price span {
+  font-family: "Red Hat Text", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #4d5054;
+}
+@media (max-width: 600px) {
+  .woocommerce .woocommerce-cart-form {
+    overflow-x: auto !important;
+  }
+  .woocommerce table.shop_table_responsive {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .woocommerce table.shop_table_responsive td,
+  .woocommerce table.shop_table_responsive th {
+    white-space: nowrap;
+    padding: 8px !important;
+  }
+  .a2n-product_desc .SpecificName {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .a2n-product_desc > ul li {
+    font-size: 12px;
+  }
+  .a2n-product_desc > a:nth-last-of-type(1) {
+    font-size: 14px;
+  }
+}
+/* cart css end by Nabil */

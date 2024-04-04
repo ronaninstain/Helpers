@@ -1,0 +1,720 @@
+/*.containers-manual {*/
+/*    max-width: 1027px;*/
+/*    margin: 0 auto;*/
+/*  }*/
+/*  .new-all-courses-single-block {*/
+/*    align-items: center;*/
+/*    background: #fff;*/
+/*    border: 1px solid #efefef;*/
+/*    border-radius: 10px;*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 3fr 0.6fr;*/
+/*  }*/
+/*  */
+/*  .new-all-courses-single-block .the-actual-img img {*/
+/*    !* transform: scale(0.6, 0.9); *!*/
+/*    border-radius: 10px;*/
+/*    max-width: 238px;*/
+/*    height: 200px;*/
+/*    object-fit: cover;*/
+/*  }*/
+/*  */
+/*  !*   .course-dynamic-tags ul li {*/
+/*      display: inline-block;*/
+/*      margin-right: 15px;*/
+/*    } *!*/
+/*  */
+/*  .the-actual-img {*/
+/*    margin-left: 8px;*/
+/*  }*/
+/*  */
+/*  !* .new-all-course-single-img {*/
+/*      width: 35%;*/
+/*    }*/
+/*    */
+/*    .new-all-course-single-des {*/
+/*      width: 50%;*/
+/*    }*/
+/*    */
+/*    .new-all-course-price-btns {*/
+/*      width: 15%;*/
+/*    } *!*/
+/*  */
+/*  .coure-dynamic-rating-and-students ul li {*/
+/*    display: inline-block !important;*/
+/*    margin-right: 20px !important;*/
+/*    color: #50617b;*/
+/*    line-height: 21px;*/
+/*    font-size: 14px !important;*/
+/*    font-weight: 400;*/
+/*    padding: 0 !important;*/
+/*  }*/
+/*  */
+/*  .new-all-course-price-btns {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*    align-items: baseline;*/
+/*    align-content: center;*/
+/*  }*/
+/*  */
+/*  .price-div {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    width: 88%;*/
+/*    text-align: right;*/
+/*  }*/
+/*  */
+/*  .btn-div {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    align-content: center;*/
+/*    margin: 0 10px;*/
+/*  }*/
+/*  */
+/*  .course-dynamic-title h2 {*/
+/*    font-weight: 600;*/
+/*    line-height: 37px;*/
+/*    font-size: 27px;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*  }*/
+/*  */
+/*  .course-dynamic-tags ul li {*/
+/*    font-size: 14px !important;*/
+/*    line-height: 21px;*/
+/*    font-weight: 500;*/
+/*    padding: 6px !important;*/
+/*    color: #313b3d;*/
+/*    display: inline-block !important;*/
+/*    margin-right: 15px !important;*/
+/*  }*/
+/*  */
+/*  li.if-featured-or-highlited {*/
+/*    background: #f3f4f6;*/
+/*  }*/
+/*  */
+/*  li.only-for-specific-offers {*/
+/*    background: #222222;*/
+/*    color: #fff !important;*/
+/*    !* border: 2px dotted #c6b5c9 !important; *!*/
+/*    font-weight: 600 !IMPORTANT;*/
+/*  }*/
+/*  .course-dynamic-des p {*/
+/*    font-size: 14px;*/
+/*    line-height: 22px;*/
+/*    font-weight: 400;*/
+/*    color: #50617b;*/
+/*  }*/
+/*  */
+/*  .new-all-course-price-btns .price-div del {*/
+/*    font-size: 23px;*/
+/*    font-weight: 500;*/
+/*    line-height: 25px;*/
+/*    color: #14bc9f;*/
+/*  }*/
+/*  */
+/*  .new-all-course-price-btns .price-div span {*/
+/*    color: #e1073e;*/
+/*    line-height: 35px;*/
+/*    font-weight: 700;*/
+/*    font-size: 34px;*/
+/*  }*/
+/*  */
+/*  .new-all-course-price-btns .btn-div a {*/
+/*    padding: 12px 0px;*/
+/*    border: 1px solid #009688;*/
+/*    border-radius: 4px;*/
+/*    margin: 10px 0;*/
+/*    font-weight: 600;*/
+/*    font-size: 14px;*/
+/*    min-width: 164px;*/
+/*    text-align: center;*/
+/*    height: 45px;*/
+/*    line-height: 20px;*/
+/*    letter-spacing: 0;*/
+/*  }*/
+/*  */
+/*  a.view-btn {*/
+/*    color: #14bc9f;*/
+/*  }*/
+/*  */
+/*  a.add-to-cart-btn {*/
+/*    color: #fff;*/
+/*    background: #14bc9f;*/
+/*  }*/
+/*  */
+/*  .new-all-course-single-des {*/
+/*    margin: 0 10px;*/
+/*  }*/
+/*  */
+/*  .course-dynamic-des p {*/
+/*    font-size: 14px;*/
+/*    line-height: 22px;*/
+/*    font-weight: 400;*/
+/*    color: #50617b;*/
+/*    padding-right: 30px;*/
+/*  }*/
+/*  */
+/*  .new-all-course-single-des {*/
+/*    margin: 0 10px;*/
+/*    margin-right: 50px;*/
+/*    border-radius: 1px solid;*/
+/*    border-right: 1px solid #efefef;*/
+/*  }*/
+/*  */
+/*  .course-dynamic-tags {*/
+/*    margin-top: 10px;*/
+/*  }*/
+/*  */
+/*  @media only screen and (min-width: 768px) and (max-width: 1023px) {*/
+/*    .course-dynamic-title h2 {*/
+/*      line-height: 28px;*/
+/*      font-size: 18px;*/
+/*    }*/
+/*  */
+/*    .course-dynamic-des p {*/
+/*      font-size: 12px;*/
+/*      line-height: 20px;*/
+/*      font-weight: 400;*/
+/*      color: #50617b;*/
+/*      padding-right: 10px;*/
+/*    }*/
+/*  */
+/*    .new-all-course-single-des {*/
+/*      margin-right: 30px;*/
+/*    }*/
+/*  */
+/*    .new-all-course-price-btns .price-div del {*/
+/*      font-size: 18px;*/
+/*      line-height: 18px;*/
+/*    }*/
+/*    .new-all-course-price-btns .price-div span {*/
+/*      line-height: 28px;*/
+/*      font-size: 23px;*/
+/*    }*/
+/*  */
+/*    .new-all-course-price-btns .price-div del {*/
+/*      font-size: 16px;*/
+/*      line-height: 16px;*/
+/*    }*/
+/*  */
+/*    .new-all-courses-single-block {*/
+/*      grid-template-columns: 0.5fr 2fr 1fr;*/
+/*    }*/
+/*  */
+/*    .new-all-courses-single-block .the-actual-img img {*/
+/*      max-width: 200px;*/
+/*      height: 150px;*/
+/*    }*/
+/*  */
+/*    .course-dynamic-tags ul li {*/
+/*      font-size: 12px !important;*/
+/*    }*/
+/*  }*/
+/*  */
+/*  @media only screen and (min-width: 320px) and (max-width: 1200px) {*/
+/*    .course-dynamic-title h2 {*/
+/*      line-height: 25px;*/
+/*      font-size: 14px;*/
+/*    }*/
+/*  */
+/*    .course-dynamic-tags ul li {*/
+/*      font-size: 10px !important;*/
+/*      line-height: 17px;*/
+/*      padding: 5px;*/
+/*      margin-right: 0px;*/
+/*    }*/
+/*  */
+/*    .new-all-courses-single-block {*/
+/*      display: flex;*/
+/*      justify-content: center;*/
+/*      flex-direction: column;*/
+/*      align-content: center;*/
+/*      align-items: center;*/
+/*    }*/
+/*  */
+/*    .the-actual-img {*/
+/*      margin-left: 0;*/
+/*    }*/
+/*  */
+/*    .new-all-course-single-des {*/
+/*      margin: 0 auto;*/
+/*      border-bottom: 1px solid #efefef;*/
+/*      border-right: 0;*/
+/*      width: 100%;*/
+/*    }*/
+/*  */
+/*    .course-dynamic-tags ul {*/
+/*      display: flex;*/
+/*      flex-direction: row;*/
+/*      align-items: center;*/
+/*      justify-content: space-between;*/
+/*    }*/
+/*  */
+/*    .course-dynamic-title h2 {*/
+/*      margin-left: 15px;*/
+/*    }*/
+/*  */
+/*    .coure-dynamic-rating-and-students ul {*/
+/*      display: flex;*/
+/*      flex-direction: row;*/
+/*      align-items: center;*/
+/*      align-content: center;*/
+/*      justify-content: space-between;*/
+/*    }*/
+/*  */
+/*    .course-dynamic-des p {*/
+/*      padding-right: 0;*/
+/*      text-align: center;*/
+/*    }*/
+/*  */
+/*    .price-div {*/
+/*      display: flex;*/
+/*      align-items: baseline;*/
+/*      margin-top: 10px;*/
+/*      flex-direction: row;*/
+/*    }*/
+/*  */
+/*    .new-all-course-price-btns {*/
+/*      flex-direction: row;*/
+/*    }*/
+/*  */
+/*    .new-all-course-price-btns {*/
+/*      flex-direction: column;*/
+/*      !* align-items: center; *!*/
+/*    }*/
+/*  */
+/*    .new-all-courses-single-block .the-actual-img img {*/
+/*      max-width: 100%;*/
+/*      height: 100%;*/
+/*    }*/
+/*    .btn-div {*/
+/*      display: flex;*/
+/*      flex-direction: row;*/
+/*      justify-content: space-between;*/
+/*      align-items: center;*/
+/*      align-content: center;*/
+/*      width: 100%;*/
+/*      margin: 0;*/
+/*    }*/
+/*    .new-all-course-price-btns {*/
+/*      width: 100%;*/
+/*    }*/
+/*  */
+/*    .new-all-course-price-btns .price-div del {*/
+/*      margin-left: 10px;*/
+/*      margin-right: 10px;*/
+/*      color: #bfc3ca;*/
+/*    }*/
+/*  */
+/*    .course-dynamic-des {*/
+/*      display: none;*/
+/*    }*/
+/*  */
+/*    .new-all-courses-single-block {*/
+/*      position: relative;*/
+/*    }*/
+/*  */
+/*    li.if-featured-or-highlited {*/
+/*      position: absolute;*/
+/*      top: 20px;*/
+/*      padding: 5px 10px !important;*/
+/*    }*/
+/*  */
+/*    .new-all-courses-single-block {*/
+/*      position: relative;*/
+/*    }*/
+/*  */
+/*    li.if-featured-or-highlited {*/
+/*      position: absolute !important;*/
+/*      top: 20px;*/
+/*      padding: 5px 10px !important;*/
+/*    }*/
+/*  */
+/*    li.only-for-specific-offers {*/
+/*      margin-left: auto !important;*/
+/*      margin-right: 0px !important;*/
+/*      margin-top: -25px !important;*/
+/*    }*/
+/*  */
+/*    .coure-dynamic-rating-and-students ul li {*/
+/*      margin: 0 10px;*/
+/*    }*/
+/*  */
+/*    .new-all-course-price-btns .btn-div a {*/
+/*      margin: 10px;*/
+/*    }*/
+/*  */
+/*    .course-dynamic-title h2 {*/
+/*      line-height: 26px;*/
+/*      font-size: 18px;*/
+/*      display: block;*/
+/*      display: -webkit-box;*/
+/*      width: 100%;*/
+/*      -webkit-line-clamp: 2;*/
+/*      -webkit-box-orient: vertical;*/
+/*      overflow: hidden;*/
+/*      text-overflow: ellipsis;*/
+/*    }*/
+/*  */
+/*    .new-all-course-price-btns .price-div a {*/
+/*      width: 200px;*/
+/*      margin: 0 !important;*/
+/*      font-size: 25px;*/
+/*      line-height: 21px;*/
+/*      padding-left: 15px;*/
+/*    }*/
+/*  */
+/*    .price-div a {*/
+/*      width: 175px;*/
+/*      margin: 0 !important;*/
+/*      font-size: 35px;*/
+/*      line-height: 21px;*/
+/*    }*/
+/*  */
+/*    .coure-dynamic-rating-and-students {*/
+/*      padding: 0 10px;*/
+/*      margin-top: 20px;*/
+/*    }*/
+/*  */
+/*    .course-dynamic-tags ul li {*/
+/*      margin-right: 0 !important;*/
+/*    }*/
+/*  */
+/*    !* .new-all-course-price-btns .btn-div a {*/
+/*      margin-left: auto !important;*/
+/*    } *!*/
+/*  */
+/*    .new-all-course-price-btns .btn-div {*/
+/*      display: flex;*/
+/*      flex-direction: row;*/
+/*      justify-content: space-between;*/
+/*      align-items: center;*/
+/*      align-content: center;*/
+/*      width: 100%;*/
+/*      margin: 0 auto !important;*/
+/*    }*/
+/*    .new-all-course-price-btns .price-div strong span {*/
+/*      padding: 0 3px !important;*/
+/*    }*/
+/*  */
+/*    .new-all-course-price-btns .btn-div a {*/
+/*      min-width: 145px;*/
+/*    }*/
+/*  }*/
+/*  */
+/*  @media only screen and (min-width: 992px) and (max-width: 1199px) {*/
+/*    .item-list.grid .new-all-course-price-btns .btn-div a {*/
+/*      font-size: 11px;*/
+/*      min-width: 92px !important;*/
+/*      letter-spacing: 0px;*/
+/*    }*/
+/*  }*/
+/*  */
+/*  !* Sakib *!*/
+/*  */
+/*  body.directory.course #buddypress ul.item-list li {*/
+/*    border: navajowhite;*/
+/*    margin: 0;*/
+/*    padding: 0px;*/
+/*    margin-bottom: 12px;*/
+/*  }*/
+/*  */
+/*  .ks-star-rating {*/
+/*    width: 70px;*/
+/*  }*/
+/*  !* .ks-star-rating svg {*/
+/*  margin-bottom: 2em;*/
+/*  } *!*/
+/*  */
+/*  .ks-star-rating .rating__background {*/
+/*    fill: #bfc3ca;*/
+/*    stroke: red;*/
+/*    stroke-width: 1;*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*  }*/
+/*  */
+/*  .ks-star-rating .rating__value {*/
+/*    fill: #ffb94b;*/
+/*    height: 100%;*/
+/*  }*/
+/*  */
+/*  .price-div a strong {*/
+/*    font-size: 12px;*/
+/*    line-height: 16px;*/
+/*    !* margin-top: 2px !important; *!*/
+/*  }*/
+/*  */
+/*  .price-div a strong span {*/
+/*    font-size: 16px !important;*/
+/*    line-height: 16px;*/
+/*    margin-left: 5px !important;*/
+/*    margin-bottom: 5px;*/
+/*  }*/
+/*  */
+/*  !* for grid view *!*/
+/*  .item-list.grid .course-dynamic-title h2 {*/
+/*    line-height: 25px;*/
+/*    font-size: 14px;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .course-dynamic-tags ul li {*/
+/*    font-size: 10px !important;*/
+/*    line-height: 17px;*/
+/*    padding: 5px;*/
+/*    margin-right: 0px;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .new-all-courses-single-block {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    flex-direction: column;*/
+/*    align-content: center;*/
+/*    align-items: center;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .the-actual-img {*/
+/*    margin-left: 0;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .new-all-course-single-des {*/
+/*    margin: 0 auto;*/
+/*    border-bottom: 1px solid #efefef;*/
+/*    border-right: 0;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .course-dynamic-tags ul {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .course-dynamic-title h2 {*/
+/*    margin-left: 15px;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .coure-dynamic-rating-and-students ul {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-items: center;*/
+/*    align-content: center;*/
+/*    justify-content: space-between;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .course-dynamic-des p {*/
+/*    padding-right: 0;*/
+/*    text-align: center;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .price-div {*/
+/*    display: grid;*/
+/*    grid-template-columns: 0.8fr 0.8fr;*/
+/*    align-items: baseline;*/
+/*    margin-top: 10px;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .new-all-course-price-btns {*/
+/*    flex-direction: row;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .new-all-course-price-btns {*/
+/*    flex-direction: column;*/
+/*    !* align-items: center; *!*/
+/*  }*/
+/*  */
+/*  .item-list.grid .new-all-courses-single-block .the-actual-img img {*/
+/*    max-width: 100%;*/
+/*    height: 100%;*/
+/*  }*/
+/*  .item-list.grid .btn-div {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    align-content: center;*/
+/*    width: 100%;*/
+/*    margin: 0 auto !important;*/
+/*  }*/
+/*  .item-list.grid .new-all-course-price-btns {*/
+/*    width: 100%;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .new-all-course-price-btns .price-div del {*/
+/*    margin-left: 10px;*/
+/*    margin-right: 10px;*/
+/*    color: #bfc3ca;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .course-dynamic-des {*/
+/*    display: none;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .new-all-courses-single-block {*/
+/*    position: relative;*/
+/*  }*/
+/*  */
+/*  .item-list.grid li.if-featured-or-highlited {*/
+/*    position: absolute;*/
+/*    top: 20px;*/
+/*    padding: 5px 10px !important;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .new-all-courses-single-block {*/
+/*    position: relative;*/
+/*  }*/
+/*  */
+/*  .item-list.grid li.if-featured-or-highlited {*/
+/*    position: absolute;*/
+/*    top: 20px;*/
+/*    padding: 5px 10px !important;*/
+/*  }*/
+/*  */
+/*  .item-list.grid li.only-for-specific-offers {*/
+/*    margin-left: auto;*/
+/*    margin-right: 0px !important;*/
+/*    margin-top: -25px;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .coure-dynamic-rating-and-students ul li {*/
+/*    margin: 0 10px;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .new-all-course-price-btns .btn-div a {*/
+/*    margin: 10px;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .course-dynamic-title h2 {*/
+/*    line-height: 26px;*/
+/*    font-size: 18px;*/
+/*    display: block;*/
+/*    display: -webkit-box;*/
+/*    width: 100%;*/
+/*    -webkit-line-clamp: 2;*/
+/*    -webkit-box-orient: vertical;*/
+/*    overflow: hidden;*/
+/*    text-overflow: ellipsis;*/
+/*  }*/
+/*  */
+/*  !* Pagination  *!*/
+/*  div#course-dir-pag-bottom a,*/
+/*  div#course-dir-pag-bottom span {*/
+/*    height: 40px !important;*/
+/*    display: inline-block;*/
+/*    width: 40px;*/
+/*    text-align: center;*/
+/*  }*/
+/*  */
+/*  div#course-dir-count-bottom {*/
+/*    display: none;*/
+/*  }*/
+/*  */
+/*  div#course-dir-pag-bottom {*/
+/*    clear: both;*/
+/*    margin: 0 auto;*/
+/*    text-align: center;*/
+/*  }*/
+/*  */
+/*  !* Shoive bhai *!*/
+/*  .item-list.grid .item-list.grid .course-dynamic-title h2 {*/
+/*    margin-left: 0;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .new-all-course-price-btns .btn-div a {*/
+/*    min-width: 120px;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .course-dynamic-tags ul li {*/
+/*    text-align: left !important;*/
+/*    margin-bottom: 0 !important;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .course-dynamic-tags ul li {*/
+/*    padding: 5px !important;*/
+/*    margin-right: 0px !important;*/
+/*  }*/
+/*  */
+/*  .item-list.grid li.only-for-specific-offers {*/
+/*    margin-left: auto !important;*/
+/*    margin-right: 0px !important;*/
+/*    margin-top: -25px !important;*/
+/*  }*/
+/*  */
+/*  .item-list.grid li.if-featured-or-highlited {*/
+/*    position: absolute !important;*/
+/*    top: 20px;*/
+/*    !* padding: 5px 10px !important; *!*/
+/*  }*/
+/*  */
+/*  .item-list.grid li.only-for-specific-offers {*/
+/*    width: 130px !important;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .new-all-courses-single-section {*/
+/*    margin: 0 5px;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .new-all-course-single-des {*/
+/*    width: 100%;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .course-dynamic-title h2 {*/
+/*    text-align: left;*/
+/*    margin: 0 !important;*/
+/*    padding: 0 10px;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .coure-dynamic-rating-and-students {*/
+/*    padding: 0 10px;*/
+/*    margin-top: 20px;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .price-div a {*/
+/*    width: 180px;*/
+/*    margin: 0 !important;*/
+/*    font-size: 35px;*/
+/*    line-height: 15px;*/
+/*  }*/
+/*  */
+/*  .new-all-course-price-btns .price-div strong del span {*/
+/*    font-size: 25px !important;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .price-div {*/
+/*    display: flex !important;*/
+/*    align-items: center !important;*/
+/*    margin-top: 10px;*/
+/*    align-content: center;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .course-dynamic-title {*/
+/*    min-height: 55px;*/
+/*  }*/
+/*  */
+/*  .new-all-course-price-btns .btn-div .add-to-cart-btn {*/
+/*    background: #14bc9f !important;*/
+/*    color: #fff !important;*/
+/*    border-color: transparent !important;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .price-div {*/
+/*    display: flex !important;*/
+/*    flex-direction: row;*/
+/*    width: 88%;*/
+/*    text-align: justify;*/
+/*  }*/
+/*  */
+/*  .item-list.grid .price-div a strong {*/
+/*    font-size: 18px;*/
+/*    line-height: 18px;*/
+/*    !* margin-top: 2px !important; *!*/
+/*  }*/
+/*  */
+/*  !* .item-list.grid .new-all-course-price-btns .btn-div a {*/
+/*    margin-left: auto !important;*/
+/*  } *!*/
+/**/

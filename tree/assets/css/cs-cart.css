@@ -1,0 +1,26 @@
+body.woocommerce-cart table.shop_table.shop_table_responsive {
+    padding: 20px;
+    border: 1px solid #f1f1f1;
+    border-radius: 10px;
+}
+body.woocommerce-cart .cart_totals.calculated_shipping h2 {
+    text-align: left;
+}
+body.woocommerce-cart .calculated_shipping table.shop_table.shop_table_responsive td {
+    text-align: right;
+}
+body.woocommerce-cart .cart-collaterals {
+    border: none !important;
+}
+
+/* for clear-pay css by Shoive start */
+
+button#clearpay_express_button img {
+    margin: 0;
+}
+
+button#clearpay_express_button {
+    margin-bottom: -20px;
+}
+
+/* for clear-pay css by Shoive end */

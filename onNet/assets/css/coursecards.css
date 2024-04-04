@@ -1,0 +1,256 @@
+.dis-course-card {
+  padding: 5px 5px 15px 5px;
+  background-color: #ffffff;
+  border: 1px solid #ededed;
+}
+
+.dis-course-card a.dis-course-thumbnail img {
+  width: 100%;
+}
+
+.dis-course-card a {
+  text-decoration: none;
+}
+
+.dis-course-card a h4 {
+  margin: 7px 11px 5px 11px;
+  color: #2b354e;
+  font-family: Inter;
+  font-size: 17.843px;
+  font-weight: 500;
+  line-height: 25.774px;
+  font-style: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 91px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.dis-course-card .dis-course-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 11px;
+  padding: 15px 0;
+  border-top: 1px solid #ededed;
+}
+
+.dis-course-card .dis-course-info p {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #2b354e;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.dis-course-card .dis-course-bottom {
+  background-color: #fdf0de;
+  margin: 5px 11px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dis-course-card .dis-course-bottom h6 {
+  align-self: flex-end;
+  margin: 0;
+}
+
+.dis-course-card .dis-course-bottom h6 del {
+  color: #b1b1b1;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.dis-course-card .dis-course-bottom h6 ins {
+  color: #7a8f3c;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.dis-course-card .dis-course-bottom h5.dis-course-btn {
+  margin: 0;
+  height: 35px !important;
+  width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5a033;
+}
+
+.dis-course-card .dis-course-bottom h5.dis-course-btn a {
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 13.878px;
+  font-weight: 500;
+  line-height: 20.817px;
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* Media Queries */
+@media (min-width: 565px) and (max-width: 1037px) {
+  .dis-course-card a h4 {
+    font-size: 15px;
+  }
+
+  .dis-course-card .dis-course-bottom h5.dis-course-btn {
+    height: 25px;
+    width: 77px;
+  }
+
+  .dis-course-card .dis-course-bottom h5.dis-course-btn a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1037px) {
+  .dis-course-card .dis-course-bottom h6 del {
+    font-size: 17px;
+  }
+
+  .dis-course-card .dis-course-bottom h6 ins {
+    font-size: 23px;
+  }
+
+  .dis-course-card .dis-course-info p {
+    gap: 5px;
+    font-size: 15px;
+  }
+}
+
+/* 2nd course card by safat start */
+
+.srs_course_card {
+  border: 1px solid #d5d4d4;
+  max-width: 255px;
+}
+.srs_course_card .srs_img_wrapper img {
+  width: 100%;
+}
+.srs_course_card .srs_img_wrapper {
+  position: relative;
+}
+.srs_course_card .srs_content_wrapper {
+  padding: 16px 9px 16px 16px;
+}
+.srs_course_card .srs_img_wrapper .srs_timing {
+  position: absolute;
+  background: #ffffff9e;
+  padding: 4px 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  border-radius: 4px;
+  right: 7px;
+  bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #222221;
+}
+
+.srs_course_card .srs_content_wrapper .srs_tag {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222221;
+}
+.srs_course_card .srs_content_wrapper .srs_name {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: #222221;
+  margin-top: 4px;
+}
+.srs_course_card .srs_content_wrapper .srs_brand {
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.23999999463558197px;
+  text-align: left;
+
+  color: #807f7f;
+  margin-top: 35px;
+}
+
+.srs_course_card_pr .elementor-widget-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 18px;
+}
+.srs_course_card_pr .srs_course_card {
+  margin: 0;
+}
+.srs_course_card_pr .srs_course_card ul li a {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222221;
+}
+.srs_course_card_pr .srs_course_card .srs_name {
+  margin-top: 20px;
+}
+
+.srs_course_card_pr .elementor-shortcode {
+  display: flex;
+  gap: 18px;
+}
+
+.stdsAndrattings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.stdsAndrattings .rating_sh_content {
+  margin-top: -12px;
+}
+
+@media (max-width: 1024px) {
+  .srs_course_card_pr .elementor-shortcode {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.srs_course_card .srs_content_wrapper .srs_name {
+  overflow: hidden;
+  height: 48px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  margin-top: 5px;
+}
+.srs_course_card .stdsAndrattings {
+  padding-bottom: 15px;
+}
+.srs_course_card .srs_img_wrapper img {
+  height: 146.31px;
+}
+.srs_course_card .srs_img_wrapper {
+  height: 146.31px;
+}
+
+/* 2nd course card by safat end */

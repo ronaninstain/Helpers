@@ -1,0 +1,245 @@
+/* Bottom nav css start */
+
+@media (max-width: 1023px) {
+  .xoo-wsc-basket {
+    bottom: 70px;
+  }
+
+  .searchform.open {
+    padding: 0 5px !important;
+    width: 80% !important;
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+  }
+
+  span.xoo-wsc-bki.xoo-wsc-icon-bag1 {
+    font-size: 16px;
+  }
+
+  span.xoo-wsc-items-count {
+    font-size: 10px;
+    height: 20px;
+    width: 20px;
+    line-height: 17px;
+    top: -2px;
+  }
+
+  /* Place the navbar at the bottom of the page, and make it stick */
+  .s-to-hide-on-large-device-S .S-Bottom-Navbar {
+    background-color: #fff;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 0;
+    justify-content: space-around;
+    box-shadow: 0 -5px 10px #00000005;
+    z-index: 100;
+  }
+
+  /* Style the links inside the navigation bar */
+  .s-to-hide-on-large-device-S .S-Bottom-Navbar a {
+    display: flex;
+    flex-direction: column;
+    color: #585757;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .s-to-hide-on-large-device-S .S-Bottom-Navbar a span {
+    margin-top: 5px;
+    font-size: 13px;
+    color: inherit;
+    text-transform: capitalize;
+  }
+
+  /* Change the color of links on hover */
+  .s-to-hide-on-large-device-S .S-Bottom-Navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* input field styles Search bar */
+
+  .s-to-hide-on-large-device-S .S-Bottom-SearchLink:hover,
+  .s-to-hide-on-large-device-S .S-Bottom-SearchLink.open {
+    cursor: pointer;
+  }
+
+  .s-to-hide-on-large-device-S .S-Bottom-SearchLink.open > .searchform {
+    display: block;
+  }
+
+  .s-to-hide-on-large-device-S .searchform {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    line-height: 40px;
+    bottom: 70px;
+    right: 0;
+    padding: 0 15px;
+    cursor: default;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e1e1e1;
+    box-shadow: 0 3px 13px 0 rgba(0, 0, 0, 0.2);
+    margin-left: -120px;
+    z-index: 9999999;
+    background-color: #fff;
+  }
+
+  .s-to-hide-on-large-device-S .searchform.open {
+    display: block;
+    position: fixed;
+  }
+
+  .s-to-hide-on-large-device-S .S-Bottom-SearchLink.open .searchform {
+    display: block;
+    position: fixed;
+  }
+
+  .s-to-hide-on-large-device-S #search {
+    display: block;
+    position: relative;
+  }
+
+  .s-to-hide-on-large-device-S #s {
+    width: 100%;
+    background: #fff;
+    padding: 1px 50px;
+    border: 1px solid #e1e1e1;
+    border-right: none;
+    color: #888;
+    margin: 14px 0;
+  }
+
+  .s-to-hide-on-large-device-S .sbtn {
+    display: block;
+    position: absolute;
+    background: none;
+    border: 1px solid #fb8756;
+    color: #fff;
+    font-size: 0.6em;
+    cursor: pointer;
+    right: 0px;
+    top: 14px;
+    width: 50px;
+    font-size: 17px;
+    background-color: #fb8756;
+  }
+
+  /* Add a background color to the active link */
+  .s-to-hide-on-large-device-S .S-Bottom-Navbar a.active {
+    color: #fb8756;
+  }
+
+  .forLoopingColorGiftBox {
+    animation-name: backgroundColorPalette;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+  }
+
+  @keyframes backgroundColorPalette {
+    0% {
+      color: #fb8756;
+    }
+
+    25% {
+      color: #d24d4d;
+    }
+
+    50% {
+      color: #c37272;
+    }
+
+    75% {
+      color: #906c6c;
+    }
+
+    100% {
+      color: #585757;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .s-to-hide-on-large-device-S {
+    display: none;
+  }
+}
+
+.s-to-hide-on-large-device-S div#S-Bottom-Navbar-id img {
+  width: 30px;
+}
+
+.s-to-hide-on-large-device-S div#S-Bottom-Navbar-id img.gifimgbtnav {
+  width: 33px !important;
+}
+
+/* Bottom nav css end */
+
+/* Blog Css fix Start */
+
+.single-post .elementor-post__thumbnail {
+  padding-bottom: 0 !important;
+}
+.single-post
+  .elementor-element.elementor-grid-3.elementor-grid-tablet-2.elementor-grid-mobile-1.elementor-posts--thumbnail-top.elementor-widget.elementor-widget-posts::after {
+  content: "";
+}
+.category-blog .blogpost .cats {
+  display: none;
+}
+
+/* Blog Css fix end */
+
+/* header css for search page start */
+
+.search-results header.sleek.transparent.fix .container {
+  width: 1410px;
+}
+
+.archive header.sleek.transparent.fix .container {
+  width: 1410px;
+}
+
+/* header css for search page end */
+
+/* check out page loader start */
+
+
+.woocommerce .blockUI.blockOverlay:before,.woocommerce .loader:before {
+  height: 3em;
+  width: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -.5em;
+  margin-top: -.5em;
+  display: block;
+  content: "";
+  -webkit-animation: none;
+  -moz-animation: none;
+  animation: none;
+  background: url('https://www.johnacademy.co.uk/wp-content/uploads/2024/03/loader-2.webp') center center;
+  background-size: cover;
+  line-height: 1;
+  text-align: center;
+  font-size: 2em;
+}
+
+/* check out page loader end */
+

@@ -1,0 +1,826 @@
+.rating_sh_content .sh_rating {
+  unicode-bidi: bidi-override;
+  color: #c5c5c5;
+  font-size: 25px;
+  height: 25px;
+  width: 100px;
+  position: relative;
+  padding: 0;
+  text-shadow: 0px 1px 0 #a2a2a2;
+}
+
+.rating_sh_content .sh_rating-upper {
+  color: #fcc400;
+  padding: 0;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.rating_sh_content .sh_rating-lower {
+  padding: 0;
+  display: flex;
+  z-index: 0;
+}
+.course-btn-div {
+  background: #fafdfd;
+  min-height: 105px;
+  padding: 26px 0 25px;
+  position: relative;
+  border-radius: 0 0 30px 30px;
+}
+
+section.courseSingleHero {
+  background: #fcf8f7;
+  padding: 80px 0 37px;
+}
+section.courseSingleHero .singleCourseHeaderDetails h2 {
+  color: #2b354e;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  margin: 5px;
+}
+section.courseSingleHero .courseMinihighlights {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+section.courseSingleHero .courseMinihighlights span {
+  color: #2b354e;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20.772px;
+}
+section.courseSingleHero .rating_sh_content .sh_rating {
+  height: auto;
+}
+section.courseSingleHero .rating_sh_content .sh_rating .sh_rating-upper span {
+  color: #fcc400;
+}
+
+section.courseSingleHero .rating_sh_content .sh_rating .sh_rating-lower span {
+  color: #bbb;
+}
+section.courseSingleHero .courseStds p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #2b354e;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20.772px;
+}
+section.courseSingleHero .courseStds p > img {
+  width: 21px;
+}
+section.courseSingleHero
+  .siteOfferonCourse
+  .elementor.elementor-325794
+  > .elementor-section {
+  border-radius: 4px;
+  background: linear-gradient(250deg, #fe6839 1%, #e0493f 100.05%);
+  margin-top: 25px;
+}
+section.courseSingleHero
+  .siteOfferonCourse
+  .elementor.elementor-325794
+  > .elementor-section
+  h2 {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+  padding: 20px;
+}
+
+section.courseSingleHero .theTabsSide {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 6.198px 0px rgba(0, 0, 0, 0.15);
+  padding: 24px 30px;
+}
+section.courseSingleHero .theTabsSide .nav.nav-tabs {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  border-radius: 5px;
+  background: rgba(241, 98, 50, 0.15);
+  margin-bottom: 25px;
+}
+section.courseSingleHero .theTabsSide .nav.nav-tabs li {
+  width: 50%;
+  text-align: center;
+}
+section.courseSingleHero .theTabsSide .nav.nav-tabs li > a {
+  height: 100%;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+section.courseSingleHero .theTabsSide .nav.nav-tabs li:first-child > a {
+  border-radius: 5px 0 0 5px !important;
+  border: none;
+}
+section.courseSingleHero .theTabsSide .nav.nav-tabs li:nth-child(2) > a {
+  border-radius: 0 5px 5px 0 !important;
+  border: none;
+}
+section.courseSingleHero .theTabsSide .tab-content {
+  overflow: hidden;
+}
+section.courseSingleHero .theTabsSide .tab-content .tab-pane strong {
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-decoration-line: strikethrough;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+section.courseSingleHero
+  .theTabsSide
+  .tab-content
+  .tab-pane
+  strong
+  > del
+  > span {
+  color: #64748b;
+}
+section.courseSingleHero
+  .theTabsSide
+  .tab-content
+  .tab-pane
+  strong
+  > ins
+  > span {
+  color: #f16232;
+}
+section.courseSingleHero
+  .theTabsSide
+  .tab-content
+  .tab-pane
+  .icon-wallet-money.right {
+  display: none;
+}
+section.courseSingleHero .theTabsSide .tab-content .courseBtns > a {
+  display: flex;
+  height: 43px !important;
+  padding: 0 !important;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #f16232;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+}
+section.courseSingleHero .theTabsSide .tab-content .theMoneyBack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 20px 0 5px;
+  color: #293241;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+section.courseSingleHero .theTabsSide .tab-content .theCourseFeatures {
+  margin-bottom: 20px;
+}
+section.courseSingleHero .theTabsSide .tab-content .theCourseFeatures > li {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  color: #2b354e;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27.2px;
+}
+section.courseSingleHero .theTabsSide .tab-content .theCourseFeatures > li > p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  color: #64748b;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27.2px;
+  text-transform: capitalize;
+}
+section.courseSingleHero
+  .theTabsSide
+  .tab-content
+  .theCourseFeatures
+  > li
+  > p
+  > img {
+  width: 15px;
+  border: none;
+}
+
+section.courseSingleHero .theTabsSide .tab-content .theCourseFeatures li:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  background-color: rgba(119, 132, 137, 0.3);
+  z-index: 1;
+}
+
+section.courseSingleHero
+  .theTabsSide
+  .tab-content
+  .theCourseFeatures
+  li:last-child:after {
+  display: none;
+}
+section.courseSingleHero .theTabsSide .tab-content .acredationBox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  overflow: auto;
+}
+section.courseSingleHero
+  .theTabsSide
+  .tab-content
+  .acredationBox::-webkit-scrollbar {
+  display: none;
+}
+
+section.courseSingleHero .theTabsSide .tab-content .gift_course_button {
+  display: flex;
+  height: 43px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border: 1px solid #f16232;
+  color: #f16232;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+section.courseSingleContent {
+  padding: 40px 0;
+}
+
+section.courseSingleContent .contentLists {
+  display: flex;
+  gap: 20px;
+}
+section.courseSingleContent .contentLists {
+  display: flex;
+  gap: 20px;
+}
+section.courseSingleContent .contentLists > li {
+  display: flex;
+  width: 212px;
+  height: 43px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: rgba(241, 98, 50, 0.1);
+}
+section.courseSingleContent .contentLists > li > a {
+  color: #f16232;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19.2px;
+  text-transform: uppercase;
+}
+section.courseSingleContent .elementor-heading-title.elementor-size-default {
+  color: #2b354e;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 15px 0;
+  margin-top: 50px;
+  position: relative;
+}
+section.courseSingleContent
+  .elementor-heading-title.elementor-size-default:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 70px;
+  border-radius: 74px;
+  background-color: #fe7439;
+  z-index: 1;
+}
+section.courseSingleContent
+  .courseSingleHome
+  .elementor-element-e146691
+  > .elementor-widget-container
+  > h3 {
+  color: #2b354e;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 15px 0;
+  margin-top: 50px;
+  position: relative;
+}
+section.courseSingleContent
+  .courseSingleHome
+  .elementor-element-e146691
+  > .elementor-widget-container
+  > h3:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 70px;
+  border-radius: 74px;
+  background-color: #fe7439;
+  z-index: 1;
+}
+
+section.courseSingleContent .elementor-widget-text-editor p {
+  color: #64748b;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+section.courseSingleContent .elementor-widget-text-editor span {
+  color: #64748b;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+section.courseSingleContent .elementor-widget-text-editor ul {
+  list-style-image: url("https://www.johnacademy.co.uk/wp-content/uploads/2024/01/Vector-7.svg");
+  list-style-position: inside;
+}
+section.courseSingleContent .courseSingleCirriculum {
+  margin-top: 20px;
+}
+
+section.courseSingleContent
+  .courseSingleCirriculum
+  .panel-group
+  .panel.panel-default {
+  border-radius: 5px;
+  border: 1px solid #d4d4d4;
+}
+
+section.courseSingleContent
+  .courseSingleCirriculum
+  .panel-group
+  .panel.panel-default:has(a.collapsed) {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #d4d4d4;
+}
+section.courseSingleContent
+  .courseSingleCirriculum
+  .panel-group
+  .panel.panel-default
+  > .panel-heading {
+  background: transparent;
+  padding: 20px;
+  position: relative;
+}
+section.courseSingleContent
+  .courseSingleCirriculum
+  .panel-group
+  .panel.panel-default
+  > .panel-heading
+  > a.collapsed
+  h4 {
+  color: #64748b !important;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+}
+
+section.courseSingleContent
+  .courseSingleCirriculum
+  .panel-group
+  .panel.panel-default
+  > .panel-heading
+  > a
+  h4 {
+  color: #fe7439 !important;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+}
+
+section.courseSingleContent
+  .courseSingleCirriculum
+  .panel-group
+  .panel.panel-default
+  > .panel-heading
+  > a.collapsed
+  h4:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 14px;
+  width: 14px;
+  background: url("https://www.johnacademy.co.uk/wp-content/uploads/2024/01/Vector-8.svg");
+  z-index: 1;
+  cursor: pointer;
+}
+section.courseSingleContent
+  .courseSingleCirriculum
+  .panel-group
+  .panel.panel-default
+  > .panel-heading
+  > a
+  h4:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  width: 14px;
+  border-radius: 50px;
+  background-color: #fe7439;
+  z-index: 1;
+  cursor: pointer;
+}
+section.courseSingleContent
+  .courseSingleCirriculum
+  .panel-group
+  .panel.panel-default
+  .panel-collapse
+  .panel-body {
+  border-top: 0;
+  color: #64748b;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.6px;
+}
+section.courseSingleContent
+  .courseSingleCirriculum
+  .panel-group
+  .panel.panel-default
+  .panel-collapse
+  .panel-body
+  > ul
+  > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section.courseSingleContent .courseSingleReviews > h2 {
+  color: #2b354e;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 15px 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+}
+section.courseSingleContent .courseSingleReviews > h2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 4px;
+  width: 70px;
+  border-radius: 74px;
+  background-color: #fe7439;
+  z-index: 1;
+}
+
+section.courseSingleLast > .container > .row > .col-md-12 {
+  text-align: center;
+}
+section.courseSingleLast > .container > .row > .col-md-12 > h2 {
+  color: #2b354e;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+  padding: 15px 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  position: relative;
+}
+section.courseSingleLast > .container > .row > .col-md-12 > h2:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  height: 4px;
+  width: 70px;
+  border-radius: 74px;
+  background-color: #fe7439;
+  z-index: 1;
+}
+section.courseSingleLast .courseCardBox {
+  max-width: 303px;
+  width: 100%;
+  display: inline-block;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 10px 0px rgba(151, 151, 151, 0.3);
+  margin: 0 20px 20px;
+}
+section.courseSingleLast .courseCardBox .courseImg {
+  width: 279px;
+  height: 178px;
+  overflow: hidden;
+  margin: 12px 12px 0 12px;
+  border-radius: 5px;
+}
+section.courseSingleLast .courseCardBox .courseImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+section.courseSingleLast .courseCardBox .courseTitle h2 {
+  color: #513f4a;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: left;
+  margin: 10px 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 50px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+section.courseSingleLast .courseCardBox .courseTitle h2:after {
+  display: none;
+}
+section.courseSingleLast .courseCardBox .reviewStars {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 12px;
+}
+section.courseSingleLast
+  .courseCardBox
+  .reviewStars
+  .rating_sh_content
+  .sh_rating {
+  height: auto;
+}
+section.courseSingleLast
+  .courseCardBox
+  .reviewStars
+  .rating_sh_content
+  .sh_rating
+  .sh_rating-upper
+  > span {
+  color: #ffe602;
+}
+section.courseSingleLast .courseCardBox .coursePrice {
+  margin: 0 12px;
+  text-align: left;
+}
+section.courseSingleLast .courseCardBox .coursePrice strong {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+section.courseSingleLast .courseCardBox .coursePrice strong > del {
+  color: #ff6c2e;
+}
+section.courseSingleLast
+  .courseCardBox
+  .coursePrice
+  .woocommerce-Price-amount.amount {
+  color: #ff6c2e;
+}
+section.courseSingleLast .courseCardBox .coursePrice .woocommerce-price-suffix {
+  display: none;
+}
+section.courseSingleLast .courseCardBox .coursePrice .icon-wallet-money {
+  display: none;
+}
+section.courseSingleLast .courseCardBox .courseLinkBtn {
+  height: 60px;
+  margin-top: 15px;
+  background: #fe7439;
+  border-radius: 0 0 5px 5px;
+}
+section.courseSingleLast .courseCardBox .courseLinkBtn a {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media (min-width: 1440px) {
+  section.courseSingleHero .theTabsSide {
+    min-height: 746.703px;
+  }
+}
+@media (max-width: 1024px) {
+  section.courseSingleHero .theTabsSide {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 767px) {
+  section.courseSingleHero .courseMinihighlights {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  section.courseSingleContent .contentLists {
+    gap: 10px;
+  }
+  section.courseSingleContent .contentLists > li {
+    display: flex;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 7px;
+    border-radius: 5px;
+    background: rgba(241, 98, 50, 0.1);
+  }
+  section.courseSingleContent .contentLists > li > a {
+    color: #f16232;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.2px;
+    text-transform: uppercase;
+  }
+  section.courseSingleLast .courseCardBox {
+    margin: 20px 5px;
+  }
+  section.courseSingleHero {
+    padding: 40px 0 40px;
+  }
+  section.courseSingleHero .singleCourseHeaderDetails h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+}
+
+section.adminbar-23-iBeauty .item-nav .item-list-tabs #item-body {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+section.adminbar-23-iBeauty .item-nav .item-list-tabs #item-body > li > a {
+  color: #64748b;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+}
+section.adminbar-23-iBeauty
+  .item-nav
+  .item-list-tabs
+  #item-body
+  > li
+  > a:hover {
+  color: #fe7439;
+}
+
+section.courseSingleLast .courseCardBox .reviewStars {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin: 10px 12px;
+  column-gap: 10px;
+}
+
+.courseSingleHome .fluid-width-video-wrapper {
+  aspect-ratio: 16/9;
+}
+
+section.courseSingleHero .courseMinihighlights span {
+  font-size: 14px;
+}
+
+section.courseSingleHero
+  .theTabsSide
+  .gform_legacy_markup_wrapper
+  label.gfield_label {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+section.courseSingleHero
+  .theTabsSide
+  .gform_legacy_markup_wrapper
+  ul
+  li.gfield {
+  margin-top: 5px;
+}
+section.courseSingleHero
+  .theTabsSide
+  .gform_legacy_markup_wrapper
+  .top_label
+  div.ginput_container {
+  margin-top: 5px;
+}
+section.courseSingleHero .theTabsSide .gform_legacy_markup_wrapper input.large {
+  height: 35px;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+section.courseSingleHero .theTabsSide .gform_legacy_markup_wrapper textarea {
+  height: 100px;
+  border-radius: 6px;
+}
+section.courseSingleHero
+  .theTabsSide
+  .gform_legacy_markup_wrapper
+  .gform_footer
+  input.button,
+.gform_legacy_markup_wrapper .gform_footer input[type="submit"] {
+  background: #fe7439;
+  border-radius: 5px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}

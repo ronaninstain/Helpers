@@ -1,0 +1,313 @@
+/* Course cloud, course status css start */
+
+.course_pursue_panel::-webkit-scrollbar {
+  width: 13px;
+}
+.course_pursue_panel::-webkit-scrollbar-track {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.course_pursue_panel::-webkit-scrollbar-thumb {
+  width: 10px;
+  border: 3px solid #ffffff;
+  background: #8b8b8b;
+  border-radius: 10px;
+}
+.course_pursue_panel .course_pursue_panel_content .course_action_points {
+  background-color: #182f51;
+  padding-top: 60px;
+}
+.course_pursue_panel .course_pursue_panel_content .course_action_points h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32px;
+}
+.course_pursue_panel
+  .course_pursue_panel_content
+  .course_action_points
+  .course_time
+  strong {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.course_pursue_panel .course_progressbar.progress {
+  background: #655c5c;
+}
+.course_pursue_panel
+  .course_pursue_panel_content
+  .course_timeline.accordion
+  ul
+  li.section {
+  border: none;
+  margin-bottom: 5px;
+}
+.course_pursue_panel
+  .course_pursue_panel_content
+  .course_timeline.accordion
+  ul
+  li.section
+  > h4 {
+  background-color: #e8f6ff;
+  color: #182f51;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+}
+.course_pursue_panel
+  .course_pursue_panel_content
+  .course_timeline.accordion
+  ul
+  li.section:after {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.course_pursue_panel .course_pursue_panel_content .unit_button {
+  color: #182f51;
+  border-color: #182f51;
+}
+.course_pursue_panel .course_pursue_panel_content .unit_button:hover {
+  background-color: #182f51;
+  color: #fff;
+  border-color: #182f51;
+}
+#hideshow_course_pursue_panel {
+  background: none;
+}
+
+.course_pursue_panel_hide #hideshow_course_pursue_panel:after {
+  background: #182f51;
+}
+#hideshow_course_pursue_panel:after {
+  background: #182f51;
+}
+#hideshow_course_pursue_panel span:before {
+  background: #182f51;
+}
+#hideshow_course_pursue_panel span:after {
+  background: #182f51;
+}
+.course_content_panel_content .unit_title .print_unit + span {
+  color: #9c9090;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+.course_content_panel_content .unit_title ul.tags {
+  display: none;
+}
+.course_content_panel_content .unit_title .print_unit {
+  display: none;
+}
+.course_content_panel_content .unit_content .unit_title h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  color: #182f51;
+}
+.course_content_panel .unit_wrap .unit_prevnext {
+  border: none;
+  height: auto;
+}
+.course_content_panel_content .unit_prevnext .unit.unit_button#prev_unit {
+  background-color: #182f51;
+  padding: 19px 19px 19px 37px;
+  position: relative;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: 600;
+  display: inline-block;
+}
+.course_content_panel_content .unit_prevnext .unit.unit_button#prev_unit:after {
+  position: absolute;
+  z-index: 99;
+  left: 9px;
+}
+.course_content_panel_content .unit_prevnext .unit.unit_button#next_unit {
+  background-color: #182f51;
+  padding: 19px 37px 19px 19px;
+  position: relative;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: 600;
+  display: inline-block;
+}
+.course_content_panel_content .unit_prevnext .unit.unit_button#next_unit:after {
+  position: absolute;
+  z-index: 99;
+}
+
+.course_content_panel_content .unit_prevnext .unit_button#mark-complete {
+  background-color: #1e619a;
+  padding: 19px 19px 19px 48px;
+  position: relative;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight: 600;
+  display: inline-block;
+}
+.course_content_panel_content .unit_prevnext .unit_button#mark-complete:before {
+  content: url("https://coursecloud.org/wp-content/uploads/2024/03/Frame.svg");
+  left: 10px;
+  bottom: 50%;
+  transform: translateY(60%);
+  position: absolute;
+}
+@media (max-width: 1330px) {
+  .course_content_panel_content .unit_prevnext .unit.unit_button#prev_unit {
+    padding: 10px 10px 10px 20px;
+    font-size: 12px;
+  }
+  .course_content_panel_content .unit_prevnext .unit.unit_button#next_unit {
+    padding: 10px 20px 10px 10px;
+    font-size: 12px;
+  }
+  .course_content_panel_content .unit_prevnext .unit_button#mark-complete {
+    padding: 10px 10px 10px 40px;
+    font-size: 12px;
+  }
+  .course_content_panel_content
+    .unit_prevnext
+    .unit_button#mark-complete:before {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .course_content_panel_content .unit_title .print_unit + span {
+    font-size: 12px;
+  }
+  .course_content_panel_content .unit_content .unit_title h1 {
+    font-size: 32px;
+  }
+
+  .course_content_panel_content .unit_prevnext .unit.unit_button#prev_unit {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+  .course_content_panel_content
+    .unit_prevnext
+    .unit.unit_button#prev_unit:after {
+    position: absolute;
+    z-index: 99;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .course_content_panel_content .unit_prevnext .unit.unit_button#next_unit {
+    height: 50px;
+    width: 50px;
+    font-size: 18px;
+  }
+  .course_content_panel_content
+    .unit_prevnext
+    .unit.unit_button#next_unit:after {
+    position: absolute;
+    z-index: 99;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .course_content_panel_content .unit_prevnext .unit_button#mark-complete {
+    font-size: 11px;
+  }
+  .course_content_panel_content
+    .unit_prevnext
+    .unit_button#mark-complete:before {
+    content: url("https://coursecloud.org/wp-content/uploads/2024/03/Frame.svg");
+    left: 10px;
+    bottom: 50%;
+    transform: translateY(60%);
+    position: absolute;
+  }
+}
+@media (max-width: 460px) {
+  .course_content_panel_content .unit_prevnext .unit.unit_button#prev_unit {
+    padding: 0;
+    height: 38px;
+    background: transparent;
+    font-size: 18px;
+  }
+  .course_content_panel_content
+    .unit_prevnext
+    .unit.unit_button#prev_unit:after {
+    left: 50%;
+    transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .course_content_panel_content .unit_prevnext .unit.unit_button#next_unit {
+    padding: 0;
+    height: 100%;
+    background: transparent;
+    font-size: 18px;
+  }
+  .course_content_panel_content
+    .unit_prevnext
+    .unit.unit_button#next_unit:after {
+    position: absolute;
+    z-index: 99;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .course_content_panel_content .unit_prevnext .unit_button#mark-complete {
+    padding: 0;
+    height: 100%;
+  }
+  .course_content_panel_content
+    .unit_prevnext
+    .unit_button#mark-complete:before {
+    content: url("https://coursecloud.org/wp-content/uploads/2024/03/Frame.svg");
+    left: 10px;
+    bottom: 50%;
+    transform: translateY(55%);
+    position: absolute;
+  }
+}
+
+.course_content_panel_content
+  .unit_prevnext
+  .unit_button.disabled#mark-complete {
+  padding: 20px;
+}
+.course_content_panel_content
+  .unit_prevnext
+  .unit_button.disabled#mark-complete:before {
+  content: "";
+}
+.course_content_panel_content
+  .unit_prevnext
+  .unit_button.disabled#mark-complete
+  i {
+  color: #72c256;
+}
+
+@media (max-width: 767px) {
+  .course_content_panel_content
+    .unit_prevnext
+    .unit_button.disabled#mark-complete {
+    padding: 8px;
+  }
+}
+
+.course_content_panel span.unit_duration {
+  display: none;
+}
+
+/* Course cloud, course status css end */
+
+/* Cart page subscription del prive hide start */
+
+tr.woocommerce-cart-form__cart-item.cart_item td.product-subtotal del {
+  display: none;
+}
+
+/* Cart page subscription del prive hide end */
