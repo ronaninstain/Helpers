@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_2413" data-name="Ellipse 2413" cx="18" cy="18" r="18" transform="translate(812.75 176)" fill="#eaeff4"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_880" data-name="Mask Group 880" transform="translate(-812.75 -176)" clip-path="url(#clip-path)">
+    <path id="Icon_material-dashboard" data-name="Icon material-dashboard" d="M4.5,13.388h7.113V4.5H4.5Zm0,7.111h7.113V15.166H4.5Zm8.891,0H20.5V11.611H13.391Zm0-16V9.833H20.5V4.5Z" transform="translate(818.248 181.499)" fill="#5d676e"/>
+  </g>
+</svg>

@@ -1,0 +1,246 @@
+.r4h_sidebar_price_purchage_tab-sec {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 2px 3px 10px 0px rgba(100, 116, 139, 0.1);
+  padding: 0;
+}
+.r4h_sidebar_price_purchage_tab-sec hr {
+  width: 90%;
+  margin-top: 50px;
+  margin-bottom: 0;
+  border-top: 1px solid #eee;
+}
+.r4h_sidebar_price_purchage_tab-sec > div > div > div {
+  padding: 0;
+}
+.r4h_sidebar_price_purchage_tab-sec ul.nav.nav-tabs {
+  display: flex;
+  justify-content: space-between;
+}
+.r4h_sidebar_price_purchage_tab-sec ul.nav.nav-tabs li {
+  width: 100%;
+  margin: 0;
+  border: none;
+}
+.r4h_sidebar_price_purchage_tab-sec ul.nav.nav-tabs li a {
+  border: none;
+  width: 100%;
+  text-align: center;
+  background-color: #ffddcb;
+  color: #64748b;
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.r4h_sidebar_price_purchage_tab-sec ul.nav.nav-tabs li.active a {
+  width: 100%;
+  text-align: center;
+  background: #f47227;
+  box-shadow: 2px 3px 10px 0px rgba(100, 116, 139, 0.3);
+  color: #fff;
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.r4h_sidebar_price_purchage_tab-sec .tab-content .the-bulk-purchase-box {
+  padding: 20px 17px;
+}
+.r4h_sidebar_price_purchage_tab-sec
+  .tab-content
+  .the-bulk-purchase-box
+  .sh-container-bulk
+  .quantity-sec-single-23-sh
+  .price {
+  color: #f47227;
+  text-align: center;
+  font-family: "Epilogue", sans-serif;
+  font-size: 36px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 58px;
+}
+.r4h_sidebar_price_purchage_tab-sec
+  .tab-content
+  .the-bulk-purchase-box
+  .sh-container-bulk
+  .quantity-sec-single-23-sh
+  .price
+  span {
+  font-family: "Epilogue", sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 400;
+  color: #64748b;
+}
+.r4h_sidebar_price_purchage_tab-sec
+  .tab-content
+  .the-bulk-purchase-box
+  .sh-container-bulk
+  .quantity-sec-single-23-sh
+  .total-price {
+  color: #f47227;
+  font-family: "Epilogue", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  line-height: 30px;
+}
+.r4h_sidebar_price_purchage_tab-sec
+  .tab-content
+  .the-bulk-purchase-box
+  .sh-container-bulk
+  .quantity-sec-single-23-sh
+  h5 {
+  color: #2b354e;
+  font-family: "Epilogue", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.r4h_sidebar_price_purchage_tab-sec
+  .tab-content
+  .the-bulk-purchase-box
+  .sh-container-bulk
+  .quantity-sec-single-23-sh
+  .for-without-width-and-flex {
+  text-align: center;
+}
+.r4h_sidebar_price_purchage_tab-sec
+  .tab-content
+  .the-bulk-purchase-box
+  .sh-container-bulk
+  .quantity-sec-single-23-sh
+  .for-without-width-and-flex
+  button {
+  font-size: 24px;
+  padding: 5px !important;
+  border-radius: 15px;
+  margin: 0;
+  background: #fff !important;
+  border: 2px solid #f47227 !important;
+  color: #f47227 !important;
+  width: 48px;
+  height: 48px;
+  margin: 20px -20px;
+}
+.r4h_sidebar_price_purchage_tab-sec
+  .tab-content
+  .the-bulk-purchase-box
+  .sh-container-bulk
+  .quantity-sec-single-23-sh
+  .for-without-width-and-flex
+  input {
+  background: #f8f8f8 !important;
+  text-align: center;
+  color: #3c4a0a;
+  font-family: "Epilogue", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 125px;
+  height: 44px;
+}
+.r4h_sidebar_price_purchage_tab-sec
+  .tab-content
+  .the-bulk-purchase-box
+  .sh-container-bulk
+  .quantity-sec-single-23-sh
+  .add-to-cart-ctm {
+  text-align: center;
+}
+.r4h_sidebar_price_purchage_tab-sec
+  .tab-content
+  .the-bulk-purchase-box
+  .sh-container-bulk
+  .quantity-sec-single-23-sh
+  .add-to-cart-ctm
+  a {
+  padding: 11px 35px;
+  text-align: center;
+  border-radius: 50px;
+  background: linear-gradient(180deg, #fea06c 0%, #f47227 100%) !important;
+  border-color: transparent !important;
+  color: #f8fafc !important;
+  font-family: "Epilogue", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.r4h_sidebar_price_purchage_tab-sec
+  .tab-content
+  .the-bulk-purchase-box
+  .the-feautures-bluck-purchase
+  h2 {
+  font-family: "Epilogue", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+  text-transform: initial;
+  text-align: center;
+}
+.r4h_sidebar_price_purchage_tab-sec
+  .tab-content
+  .the-bulk-purchase-box
+  .the-feautures-bluck-purchase
+  ul {
+  font-family: "Epilogue", sans-serif;
+  text-align: center;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.r4h_sidebar_price_purchage_tab-sec
+  .tab-content
+  .the-bulk-purchase-box
+  .the-feautures-bluck-purchase
+  a {
+  display: block;
+  text-align: center;
+  font-family: "Epilogue", sans-serif;
+  text-transform: capitalize;
+  color: #f47227;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.single-page-sidebar-area .r4h_sidebar_price_purchage_tab-sec {
+  margin-top: -350px;
+  border-radius: 27px;
+  overflow: hidden;
+  background: #fff;
+}
+.r4h_sidebar_price_purchage_tab-sec .single-course-sidebar-logo {
+  border-radius: 0 0 27px 27px;
+  box-shadow: none !important;
+}
+
+.r4h_sidebar_price_purchage_tab-sec .single-page-sidebar-single {
+  margin-top: 0px !important;
+  border-radius: 0;
+  box-shadow: none !important;
+}
+.r4h_sidebar_price_purchage_tab-sec hr {
+  background: #fff;
+}
+.r4h_sidebar_price_purchage_tab-sec .tab-content .the-bulk-purchase-box {
+  background: #fff;
+}
+.r4h_sidebar_price_purchage_tab-sec
+  .tab-content
+  .the-bulk-purchase-box
+  .the-feautures-bluck-purchase
+  ul
+  li {
+  font-size: 14px;
+}
